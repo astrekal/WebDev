@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Titled page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+
+	<main>
+			<img class="headimg" src="img/triangle.png" alt="checkmark icon" height="128" />
+			<h1 onclick="getIP()">Header</h1>
+			<p id="AngryParagraph" onmouseover="angryText()" onclick="clickAngry()">This is a sentence, not a paragraph.</p>
+			<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+			<script type="application/javascript">
+				function getIP(json) {
+					document.write("Your IP address is ", json.ip);
+					// document.getElementById("ipline").innerHTML = json.ip;
+				}
+				function angryText() {
+				//	document.getElementById("AngryParagrap").innerText = originalAngryText;
+					document.getElementById("AngryParagraph").innerText = "I TOLD YOU THIS IS NOT A PARAGRAPH";
+				}
+				function clickAngry() {
+					if (document.getElementById("AngryParagraph").textContent = "DON'T CLICK ME") {
+						document.getElementById("AngryParagraph").innerText = "Really stop dat tho" ;
+					}
+					document.getElementById("AngryParagraph").innerText = "DON'T CLICK ME";
+				}
+			</script>
+		
+		<p id="ipline">Some default text</p>
+	</main>
+</body>
+</html>
