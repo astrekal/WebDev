@@ -1,0 +1,46 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+/*General */
+body {
+    background-color: #051838;
+    font-family: "Ubuntu";
+    color:#E7E7E7;
+}
+a {
+    color: #7689A9;
+}
+a:focus, a:hover {
+    color:#eeeeee;
+    transition: 0.2s;
+}
+/* Header */
+header {
+    margin:3%;
+}
+.main_title {
+    color: white;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #888888;
+}
+
+/* Main */
+main {
+    background-color: #2D4671;
+    padding:3%;
+    clear: left;
+}
+#au_flag_float {
+    float: left;
+    padding-right:1em;
+}
+
+
+/* Footer */
+footer {
+    padding:1%;
+    padding-left:3%;
+}
+footer>p {
+    font-size: 0.75em;
+}
