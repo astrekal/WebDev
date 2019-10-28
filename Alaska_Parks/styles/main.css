@@ -54,7 +54,7 @@ p {
     color:#444444
 }
 body {
-    background-image: url("../img/arctic.jpg");
+    background-image: url("img/arctic.jpg");
     background-attachment: fixed;
 }
 main {
